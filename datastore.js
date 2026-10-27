@@ -1,3 +1,6 @@
+const fs = require('fs');
+const path = require('path');
+
 const isVercel = Boolean(process.env.VERCEL);
 const DATA_FILE = isVercel 
   ? path.join('/tmp', 'data.json')
