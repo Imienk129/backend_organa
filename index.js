@@ -515,11 +515,15 @@ app.get('/api/attendance/activity/:activityId', (req, res) => {
   res.json({ success: true, count: list.length, data: list });
 });
 
-// Start Server
-app.listen(PORT, '0.0.0.0', () => {
-  console.log(`===============================================`);
-  console.log(`  ORGANA REST API SERVER RUNNING ON PORT ${PORT} `);
-  console.log(`  Local URL:   http://localhost:${PORT}`);
-  console.log(`  Health Check: http://localhost:${PORT}/`);
-  console.log(`===============================================`);
-});
+// Start Server only if run directly
+if (process.env.NODE_ENV !== 'production' || !process.env.VERCEL) {
+  app.listen(PORT, '0.0.0.0', () => {
+    console.log(`===============================================`);
+    console.log(`  ORGANA REST API SERVER RUNNING ON PORT ${PORT} `);
+    console.log(`  Local URL:   http://localhost:${PORT}`);
+    console.log(`  Health Check: http://localhost:${PORT}/`);
+    console.log(`===============================================`);
+  });
+}
+
+module.exports = app;
