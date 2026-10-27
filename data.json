@@ -1,0 +1,182 @@
+{
+  "users": [
+    {
+      "uid": "u101",
+      "nama": "Ahmad Fauzi",
+      "email": "ahmad.fauzi@organa.id",
+      "password": "password123",
+      "role": "Ketua/Admin",
+      "noHp": "0812-3456-7890",
+      "createdAt": "2026-10-26T15:23:29.525Z"
+    },
+    {
+      "uid": "u100",
+      "nama": "Muhammad Rayhan",
+      "email": "rayhan.ketua@organa.id",
+      "password": "password123",
+      "role": "Ketua/Admin",
+      "noHp": "0811-9876-5432",
+      "createdAt": "2026-10-26T15:23:29.526Z"
+    },
+    {
+      "uid": "u102",
+      "nama": "Siti Nurhaliza",
+      "email": "siti.nurhaliza@organa.id",
+      "password": "password123",
+      "role": "Pengurus",
+      "noHp": "0813-2233-4455",
+      "createdAt": "2026-10-26T15:23:29.526Z"
+    },
+    {
+      "uid": "u103",
+      "nama": "Budi Santoso",
+      "email": "budi.santoso@organa.id",
+      "password": "password123",
+      "role": "Anggota",
+      "noHp": "0857-1122-3344",
+      "createdAt": "2026-10-26T15:23:29.526Z"
+    },
+    {
+      "uid": "u104",
+      "nama": "Rian Pratama",
+      "email": "rian.pratama@organa.id",
+      "password": "password123",
+      "role": "Anggota",
+      "noHp": "0878-5566-7788",
+      "createdAt": "2026-10-26T15:23:29.526Z"
+    }
+  ],
+  "activities": [
+    {
+      "id": "act01",
+      "namaKegiatan": "Musyawarah Kerja Anggota 2026",
+      "deskripsi": "Penyusunan program kerja dan evaluasi organisasi semester ganjil.",
+      "lokasi": "Auditorium Gd. Rektorat Lt. 3",
+      "latitude": -6.914744,
+      "longitude": 107.60981,
+      "radiusMeters": 50,
+      "tanggalMulai": "2026-10-29T15:23:29.526Z",
+      "tanggalSelesai": "2026-10-29T23:23:29.526Z",
+      "status": "Selesai",
+      "progress": 77.3,
+      "penanggungJawab": "Ahmad Fauzi"
+    },
+    {
+      "id": "act02",
+      "namaKegiatan": "Workshop Desain Grafis & Branding",
+      "deskripsi": "Pelatihan pembuatan identitas visual dan konten media sosial pengurus.",
+      "lokasi": "Lab Komputer Multimedia",
+      "latitude": -6.9148,
+      "longitude": 107.6099,
+      "radiusMeters": 40,
+      "tanggalMulai": "2026-10-26T13:23:29.526Z",
+      "tanggalSelesai": "2026-10-26T19:23:29.526Z",
+      "status": "Selesai",
+      "progress": 100,
+      "penanggungJawab": "Siti Nurhaliza"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t_de8257db",
+      "activityId": "act01",
+      "judul": "hgfgkv",
+      "deskripsi": "jhvgkugv",
+      "assignedTo": "Siti Nurhaliza",
+      "assignedToUid": "u102",
+      "deadline": "2026-10-30T00:00:00.000",
+      "priority": "High",
+      "weight": 5,
+      "status": "In Progress",
+      "createdAt": "2026-10-26T16:09:29.383Z"
+    },
+    {
+      "id": "t01",
+      "activityId": "act01",
+      "judul": "Finalisasi Proposal Anggaran & Sponsorship",
+      "deskripsi": "Review RAB divisi perlengkapan dan konsumsi bersama bendahara.",
+      "assignedTo": "Ahmad Fauzi",
+      "assignedToUid": "u101",
+      "deadline": "2026-10-27T15:23:29.526Z",
+      "priority": "High",
+      "weight": 3,
+      "status": "Done"
+    },
+    {
+      "id": "t02",
+      "activityId": "act01",
+      "judul": "Konfirmasi Surat Izin Peminjaman Tempat",
+      "deskripsi": "Serahkan surat permohonan ke biro sarana prasarana.",
+      "assignedTo": "Ahmad Fauzi",
+      "assignedToUid": "u101",
+      "deadline": "2026-10-28T15:23:29.526Z",
+      "priority": "Medium",
+      "weight": 2,
+      "status": "Done"
+    },
+    {
+      "id": "t03",
+      "activityId": "act01",
+      "judul": "Publikasi Rundown & Tata Tertib",
+      "deskripsi": "Kirimkan pamflet agenda kegiatan di broadcast WhatsApp anggota.",
+      "assignedTo": "Siti Nurhaliza",
+      "assignedToUid": "u102",
+      "deadline": "2026-10-26T11:23:29.526Z",
+      "priority": "Low",
+      "weight": 1,
+      "status": "Done"
+    },
+    {
+      "id": "t04",
+      "activityId": "act02",
+      "judul": "Persiapan Modul Materi & Desain",
+      "deskripsi": "Siapkan materi pelatihan dan software pendukung.",
+      "assignedTo": "Budi Santoso",
+      "assignedToUid": "u103",
+      "deadline": "2026-10-30T15:23:29.526Z",
+      "priority": "High",
+      "weight": 2,
+      "status": "Done"
+    },
+    {
+      "id": "t05",
+      "activityId": "act02",
+      "judul": "Pencetakan Sertifikat Peserta & Plakat",
+      "deskripsi": "Cetak 50 sertifikat dan plakat narasumber.",
+      "assignedTo": "Rian Pratama",
+      "assignedToUid": "u104",
+      "deadline": "2026-10-31T15:23:29.526Z",
+      "priority": "Medium",
+      "weight": 2,
+      "status": "Done"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "att01",
+      "activityId": "act01",
+      "userId": "u102",
+      "nama": "Siti Nurhaliza",
+      "checkInTime": "2026-10-26T15:13:29.526Z",
+      "status": "Present",
+      "distanceMeters": 12.5
+    },
+    {
+      "id": "att02",
+      "activityId": "act01",
+      "userId": "u103",
+      "nama": "Budi Santoso",
+      "checkInTime": "2026-10-26T15:18:29.526Z",
+      "status": "Present",
+      "distanceMeters": 8.2
+    }
+  ],
+  "sessions": {
+    "act01": {
+      "activityId": "act01",
+      "isActive": true,
+      "secret": "SECRET_act01_ORGANA_KEY",
+      "createdAt": "2026-10-26T16:13:29.884Z"
+    }
+  }
+}
