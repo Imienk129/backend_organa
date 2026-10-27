@@ -515,8 +515,8 @@ app.get('/api/attendance/activity/:activityId', (req, res) => {
   res.json({ success: true, count: list.length, data: list });
 });
 
-// Start Server only if run directly
-if (process.env.NODE_ENV !== 'production' || !process.env.VERCEL) {
+// Start Server only if run directly outside Vercel
+if (!process.env.VERCEL) {
   app.listen(PORT, '0.0.0.0', () => {
     console.log(`===============================================`);
     console.log(`  ORGANA REST API SERVER RUNNING ON PORT ${PORT} `);
